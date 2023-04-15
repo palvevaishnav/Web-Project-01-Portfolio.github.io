@@ -1,0 +1,141 @@
+
+body{
+    padding: 50px 50px 50px 50px;
+    background: #fddba4;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+/* Header section  */
+
+.header{
+    height: auto;
+    position: fixed; 
+}
+.header a{
+  background: inherit;
+    margin-left:20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* About */
+.about{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 10px 10px 20px rgba(223, 18, 18, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    height: auto;
+    border-radius: 20px; 
+}button{
+    background-color: inherit;
+    border-color: red;
+    padding: 15px;
+    border-radius: 10px 10px 0px 10px ;
+}
+button a{
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+}
+.about .left,.right{
+    padding: 80px;
+    width: 50%;
+}.left{
+    text-align: start;
+
+}
+.about h3{
+    font-size: 35px;
+}
+.about h1{
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.foont{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.curly-bracket{
+  font-size: 100px;
+}
+/* Projects */
+.my-work{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}h1{
+    font-size: 60px;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cards {
+  height: auto;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-shadow: 0 48px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding: 48px;
+  text-align: center;
+}
+.kakashi{
+  height:250px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* blog */
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.blogs{
+  height: auto;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-shadow: 0 48px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding: 48px;
+  text-align: center;
+}
+/* social media icons */
+.social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    
+}
+.social div{
+    /* margin: 20px; */
+  height: auto;
+  margin: 100px auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+
+/* footer */
+footer {
+   padding: 20px;
+   margin: 50px;
+   text-align: center;
+}
